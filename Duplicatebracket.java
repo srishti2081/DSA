@@ -1,3 +1,5 @@
+package Stack;
+
 import java.util.*;
 public class Duplicatebracket {
     public static void main(String[] args) {
