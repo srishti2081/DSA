@@ -9,9 +9,7 @@ public class Array_greatest_element_toright {
             arr[i] = sc.nextInt();
             if(arr[i+1]>arr[i]){
                 System.out.println("Next greater element of"+i+"is"+(i+1));
-            }// else{
-            //     i++;
-            // }
+            }
         }
         
         
