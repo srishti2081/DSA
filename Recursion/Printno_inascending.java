@@ -1,6 +1,4 @@
 import java.util.*;
-
-
 //printing number from 1 to 5
 public class Printno_inascending {
     public static void printnumber(int n){

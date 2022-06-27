@@ -7,7 +7,7 @@ public class Factorial {
         if(n==1){
             sum=sum*n;
             System.out.println(sum);
-            return;
+            return ;
         }
 
         sum= sum*n;
