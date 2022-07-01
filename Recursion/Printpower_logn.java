@@ -25,9 +25,16 @@ public class Printpower_logn {
        
     }
     public static void main(String[] args) {
-        int x=2,n=3;
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int n = sc.nextInt();
+        
         int ans = printpow(x,n);
         System.out.println(ans);
+    
+        sc.close();
+        
+        
     }
     
 }
