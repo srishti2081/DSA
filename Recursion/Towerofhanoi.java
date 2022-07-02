@@ -4,8 +4,8 @@ public class Towerofhanoi {
 
     public static void towerofhanoi(int n, String Sourse,String Helper,String Destination){
 
-        if(n==1){
-            System.out.println("transfer disk " + n + " from " + Sourse + " to " + Destination);
+        if(n==0){
+           
             return;
         }
         towerofhanoi(n-1,Sourse,Destination,Helper); //step 1.
