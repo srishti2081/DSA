@@ -8,17 +8,19 @@ public class Diaplay_ReverseArray {
              arr[i] = sc.nextInt();
         }
 
-        ReverseArray(arr,0);
+        ReverseArray(arr,arr.length);
         sc.close();
         
     }
 
     public static void ReverseArray(int[] arr, int idx){
-        if(idx==arr.length){return;}
-        int a=arr[idx];
-        ReverseArray(arr,idx+1);
+        if(idx==0){
+            System.out.println(arr[0]);
+            return;}
+       
+        ReverseArray(arr,idx-1);
         
-        System.out.println(a);
+        System.out.println(arr[idx]);
     }
   } 
 
