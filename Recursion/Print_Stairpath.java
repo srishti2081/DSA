@@ -9,6 +9,7 @@ public class Print_Stairpath {
     
   } 
   public static void pstairpath(int n , String path){
+    //base case
     if(n==0){  
        System.out.println(path);
         return ;
