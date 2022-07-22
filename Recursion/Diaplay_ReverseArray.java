@@ -8,9 +8,8 @@ public class Diaplay_ReverseArray {
              arr[i] = sc.nextInt();
         }
 
-        ReverseArray(arr,arr.length);
-        sc.close();
-        
+        ReverseArray(arr,arr.length-1);
+        sc.close();   
     }
 
     public static void ReverseArray(int[] arr, int idx){
@@ -18,9 +17,9 @@ public class Diaplay_ReverseArray {
             System.out.println(arr[0]);
             return;}
        
-        ReverseArray(arr,idx-1);
+            System.out.println(arr[idx]);
+             ReverseArray(arr,idx-1);
         
-        System.out.println(arr[idx]);
     }
   } 
 

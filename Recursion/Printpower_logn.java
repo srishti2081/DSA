@@ -20,9 +20,7 @@ public class Printpower_logn {
         //n is odd
         else{
             return printpow(x, n/2) * printpow(x, n/2) * x;
-        }
-    
-       
+        } 
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
